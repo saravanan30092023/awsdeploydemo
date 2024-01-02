@@ -14,6 +14,13 @@ public class TestController {
 
     @GetMapping("/message")
     public String getMessage() {
+
         return "Second message from AWS Ecs";
+    }
+
+
+    @GetMapping("/hai")
+    public String getMessage1() {
+        return "third message from AWS Ecs";
     }
 }
