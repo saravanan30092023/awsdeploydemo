@@ -8,6 +8,7 @@ class SpringbootAwsDeployApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assert(true);
 	}
 
 }
